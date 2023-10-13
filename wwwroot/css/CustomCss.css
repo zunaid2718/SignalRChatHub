@@ -1,0 +1,26 @@
+﻿#mainContainer {
+    overflow-y:auto;
+    height: 70vh;
+    background-color: #f7f6f5;
+}
+
+.sendMessageBox {
+    margin-top: 10px;
+    padding:10px;
+    background-color: #f7f6f5;
+}
+
+.chatsBox {
+    padding: 2px;
+    border-radius: 2px;
+    background-color: #d6d4d2
+}
+
+    .chatsBox .left {
+        direction:ltr;
+    }
+
+
+    .chatsBox.right{
+        direction:rtl;
+    }
